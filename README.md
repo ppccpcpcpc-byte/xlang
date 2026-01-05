@@ -68,12 +68,13 @@ This will cause:
 Running binaries as Python source is the bug.
 Project Structure
 
-.
+
 ├── xcompiler.py     # X language compiler
 ├── xvm.py / xvm_core.py  # X Virtual Machine
 ├── examples/
 │   └── test.x
 ├── README.md
+
 
 |xlang|py|
 |:----|:----|
