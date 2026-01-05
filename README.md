@@ -82,6 +82,7 @@ Project Structure
 |fun() {}|def|
 |i=8|i=8|
 
+`print()`
 Design Philosophy
 Clear separation of responsibility
 Minimal magic
