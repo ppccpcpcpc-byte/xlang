@@ -74,11 +74,17 @@ Project Structure
 ├── examples/
 │   └── test.x
 ├── README.md
+
+|xlang|py|
+|:----|:----|
+|print()|print()|
+|fun() {}|def|
+|i=8|i=8|
+
 Design Philosophy
 Clear separation of responsibility
 Minimal magic
 VM-first execution model
-Debuggable, inspectable bytecode
 No silent behavior
 Status
 Compiler: stable
