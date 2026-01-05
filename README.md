@@ -22,9 +22,7 @@ Execution is handled only by XVM, not Python itself
 Key Concepts
 Compiler ≠ Interpreter
 X is a compiled language
-XVM executes binary bytecode
-.xrun files may contain null bytes (this is normal)
-⚠️ Do NOT run .xrun files with python file.xrun
+python file.xrun
 Always execute them through XVM
 Features
 Variables and assignment
@@ -60,13 +58,12 @@ vm = xvm.VM()
 vm.load_bin("test.xrun")
 vm.run()
 ```
-❌ Incorrect (will fail)
+~~❌ Incorrect (will fail)
 Bash
 python test.xrun
 This will cause:
-
 Running binaries as Python source is the bug.
-Project Structure
+Project Structure~~
 
 
 ├── xcompiler.py     # X language compiler
